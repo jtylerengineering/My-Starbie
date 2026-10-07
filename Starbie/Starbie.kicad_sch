@@ -695,6 +695,183 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:Buzzer"
+			(pin_names
+				(offset 0.0254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "BZ"
+				(at 3.81 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Buzzer"
+				(at 3.81 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at -0.635 2.54 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at -0.635 2.54 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Buzzer, polarized"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "quartz resonator ceramic"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*Buzzer*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Buzzer_0_1"
+				(polyline
+					(pts
+						(xy -1.651 1.905) (xy -1.143 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.397 2.159) (xy -1.397 1.651)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 3.175)
+					(mid 3.1612 0)
+					(end 0 -3.175)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.175) (xy 0 -3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Buzzer_1_1"
+				(pin passive line
+					(at -2.54 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R_US"
 			(pin_numbers
 				(hide yes)
@@ -2157,10 +2334,6 @@
 		(uuid "a6e1ca27-1650-431c-a436-a6078320e6f9")
 	)
 	(no_connect
-		(at 165.1 96.52)
-		(uuid "b254e90a-b58f-4780-b909-7cc5fadee581")
-	)
-	(no_connect
 		(at 165.1 88.9)
 		(uuid "b3821c67-b227-4622-b7cc-887ccb21a3d7")
 	)
@@ -2175,6 +2348,16 @@
 	(no_connect
 		(at 123.19 96.52)
 		(uuid "f61e097c-b994-4bdd-82c9-1bb86f4915c2")
+	)
+	(wire
+		(pts
+			(xy 217.17 57.15) (xy 222.25 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00d7b199-2494-4fcc-b218-317192c666e0")
 	)
 	(wire
 		(pts
@@ -2228,6 +2411,16 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 57.15) (xy 236.22 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "213d2731-17b1-41aa-9c14-62573cc8a405")
+	)
+	(wire
+		(pts
 			(xy 180.34 73.66) (xy 180.34 66.04)
 		)
 		(stroke
@@ -2258,6 +2451,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 96.52) (xy 170.18 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bc1dd10-de06-42b9-b47d-42938611210d")
+	)
+	(wire
+		(pts
 			(xy 229.87 111.76) (xy 229.87 113.03)
 		)
 		(stroke
@@ -2275,6 +2478,16 @@
 			(type default)
 		)
 		(uuid "4e042ea4-cf3a-4ec0-96f6-2e45aeb991a4")
+	)
+	(wire
+		(pts
+			(xy 219.71 46.99) (xy 236.22 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e2b54ec-dffd-46d6-b50a-8193dc2756be")
 	)
 	(wire
 		(pts
@@ -2305,6 +2518,16 @@
 			(type default)
 		)
 		(uuid "647e73e3-8db3-4dbe-ac57-6f01c18513b4")
+	)
+	(wire
+		(pts
+			(xy 229.87 57.15) (xy 236.22 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6762ce3c-61cb-42c3-87db-c5082a8ac424")
 	)
 	(wire
 		(pts
@@ -2405,6 +2628,16 @@
 			(type default)
 		)
 		(uuid "c3fcf1e3-85e4-4034-b38b-c6f679f6194c")
+	)
+	(wire
+		(pts
+			(xy 217.17 58.42) (xy 217.17 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5344192-2dad-448a-bcf5-31060447cf3c")
 	)
 	(wire
 		(pts
@@ -2536,7 +2769,7 @@
 		)
 		(uuid "099ea1b1-a360-45aa-966d-3588422bd7a3")
 	)
-	(label "DIO 3"
+	(label "GPIO 3"
 		(at 113.03 85.09 180)
 		(effects
 			(font
@@ -2556,6 +2789,16 @@
 		)
 		(uuid "57a1d686-8a9f-4776-a0c9-951724bfcd1d")
 	)
+	(label "GPIO 20"
+		(at 170.18 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "58473306-1e52-45cd-8ec7-b7dbed2bbc8a")
+	)
 	(label "DHT11 DATA"
 		(at 62.23 45.72 0)
 		(effects
@@ -2566,7 +2809,7 @@
 		)
 		(uuid "5fe3f5c7-9053-493f-a169-89f978e4e346")
 	)
-	(label "DIO 2"
+	(label "GPIO 2"
 		(at 113.03 81.28 180)
 		(effects
 			(font
@@ -2635,6 +2878,16 @@
 			(justify left bottom)
 		)
 		(uuid "c6a7a3df-a51b-4d95-bfcf-eae1ea826c0f")
+	)
+	(label "GPIO 20"
+		(at 219.71 46.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "dd01a9a4-e9d9-41c8-93e9-c5e810502435")
 	)
 	(label "SDA"
 		(at 55.88 135.89 270)
@@ -3195,7 +3448,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "e9dfa4d7-7f71-4fc0-9b8f-b5f426b8718a")
+			(uuid "e9dfa4d7-7f71-4fc0-9b8f-b5f426b8718b")
 		)
 		(instances
 			(project "Starbie"
@@ -3285,6 +3538,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 226.06 57.15 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "759f6d2b-6679-485c-82a6-9abe2c315720")
+		(property "Reference" "R2"
+			(at 226.06 50.8 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 226.06 53.34 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+			(at 226.314 56.134 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 226.06 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "48eec157-a3fc-4b7d-a9bf-b9be25ed29c0")
+		)
+		(pin "2"
+			(uuid "2e8c0441-909c-437f-9726-f19ccea486f0")
+		)
+		(instances
+			(project "Starbie"
+				(path "/020f3bcc-c579-414e-8561-0ded37d911bd"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 48.26 34.29 0)
 		(unit 1)
@@ -3351,7 +3684,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "e9dfa4d7-7f71-4fc0-9b8f-b5f426b8718a")
+			(uuid "e9dfa4d7-7f71-4fc0-9b8f-b5f426b8718c")
 		)
 		(instances
 			(project "Starbie"
@@ -3583,6 +3916,166 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 217.17 58.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "982fec05-2c2a-487f-8c3d-05498a7d6418")
+		(property "Reference" "#PWR014"
+			(at 217.17 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 217.17 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.17 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 217.17 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "599ae364-c88f-456a-8585-36933265f586")
+		)
+		(instances
+			(project "Starbie"
+				(path "/020f3bcc-c579-414e-8561-0ded37d911bd"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Buzzer")
+		(at 238.76 49.53 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a77334a3-f9d6-47b1-8620-4edc85b4e65b")
+		(property "Reference" "BZ1"
+			(at 242.57 48.2599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Buzzer"
+			(at 242.57 50.7999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Buzzer_Beeper:Buzzer_12x9.5RM7.6"
+			(at 238.125 46.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.125 46.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Buzzer, polarized"
+			(at 238.76 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c8848036-af9a-4038-aa24-19d268d58766")
+		)
+		(pin "1"
+			(uuid "9ec6a2c3-3acb-4013-9017-069a7d010610")
+		)
+		(instances
+			(project "Starbie"
+				(path "/020f3bcc-c579-414e-8561-0ded37d911bd"
+					(reference "BZ1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x08_Pin")
 		(at 114.3 142.24 0)
 		(unit 1)
@@ -3746,10 +4239,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "83e1318e-c83d-4ca9-9cb6-8904cebfeec4")
+			(uuid "83e1318e-c83d-4ca9-9cb6-8904cebfeec5")
 		)
 		(pin "1"
-			(uuid "317ed143-1a94-4693-8516-f6963ca348f7")
+			(uuid "317ed143-1a94-4693-8516-f6963ca348f8")
 		)
 		(instances
 			(project "Starbie"
@@ -4149,7 +4642,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "331af7ba-10d1-4480-b62a-395ba2c398ee")
+			(uuid "331af7ba-10d1-4480-b62a-395ba2c398ef")
 		)
 		(instances
 			(project "Starbie"
@@ -4227,7 +4720,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "23b6c07d-46ae-4b91-b7a2-b95cb0e39c94")
+			(uuid "23b6c07d-46ae-4b91-b7a2-b95cb0e39c95")
 		)
 		(instances
 			(project "Starbie"
@@ -4305,7 +4798,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "331af7ba-10d1-4480-b62a-395ba2c398ee")
+			(uuid "331af7ba-10d1-4480-b62a-395ba2c398f0")
 		)
 		(instances
 			(project "Starbie"
