@@ -18,7 +18,7 @@
 | [MPU 6050](https://www.aliexpress.us/item/3256809871479525.html?spm=a2g0o.productlist.main.2.52804922fHav3E&algo_pvid=0fbeef62-7378-48a1-adb1-371e169a90af&algo_exp_id=0fbeef62-7378-48a1-adb1-371e169a90af-1&pdp_ext_f=%7B%22order%22%3A%223447%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21USD%212.10%211.09%21%21%212.10%211.09%21%402101d3fe17917546524812582e10eb%2112000050979433010%21sea%21US%218282019388%21ABX%211%210%21n_tag%3A-29910%3Bd%3Af35780dd%3Bm03_new_user%3A-29895%3BpisId%3A5000000218032551&curPageLogUid=ErNcXavS6G41&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005010057794277%7C_p_origin_prod%3A) | checking tilt for rotary menu | 1 | $2.10 | $2.10 | [Aliexpress](https://www.aliexpress.us/item/3256809871479525.html?spm=a2g0o.productlist.main.2.52804922fHav3E&algo_pvid=0fbeef62-7378-48a1-adb1-371e169a90af&algo_exp_id=0fbeef62-7378-48a1-adb1-371e169a90af-1&pdp_ext_f=%7B%22order%22%3A%223447%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21USD%212.10%211.09%21%21%212.10%211.09%21%402101d3fe17917546524812582e10eb%2112000050979433010%21sea%21US%218282019388%21ABX%211%210%21n_tag%3A-29910%3Bd%3Af35780dd%3Bm03_new_user%3A-29895%3BpisId%3A5000000218032551&curPageLogUid=ErNcXavS6G41&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005010057794277%7C_p_origin_prod%3A) |
 | [XIAO ESP32-C3](https://www.seeedstudio.com/Seeed-XIAO-ESP32C3-p-5431.html) | Microcontroller | 1 | $4.99 | $4.99 | [Seeed Studio](https://www.seeedstudio.com/Seeed-XIAO-ESP32C3-p-5431.html) |
 | **Parts subtotal** | — | — | — | **$10.53** | — |
-| **Tax & shipping** | — | — | — | **$0.00** | — |
-| **Total** | — | — | — | **$10.53** | — |
+| **Tax & shipping** | — | — | — | **$17.36** | — |
+| **Total** | — | — | — | **$27.89** | — |
 
-$19.47 left of the tier's funding.
+$2.11 left of the tier's funding.
