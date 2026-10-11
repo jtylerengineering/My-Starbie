@@ -23,7 +23,7 @@ As of now, I have not printed the board. I will probably not be able to add a bu
 The simple explanation is that the potentiometer is wired to Digital Pin 7 on the XIAO board. This is where the input voltage is. Then the positive lead on the buzzer is wired into the wiper pin of the potentiometer. Both components are grounded using a ground pool on the PCB.
 
 ## Installing Firmware
-To download the firmware for the Starbie, go to <a href="">Starbie.ino</a>.
+To download the firmware for the Starbie, go to <a href="https://github.com/jtylerengineering/My-Starbie/blob/main/Starbie_firmware/Starbie.ino">Starbie.ino</a>.
 
 ### Settings
 An explanation for setting up for an upload will be added during week six.
