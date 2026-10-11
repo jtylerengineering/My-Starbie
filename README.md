@@ -1,4 +1,5 @@
 # My-Starbie
+<img width="1084" height="629" alt="Starbie_render" src="https://github.com/user-attachments/assets/7bf6d541-2385-4fb8-9a92-fd5c8dbeab1b" />
 
 # Description
 The Starbie is a starter project for Half-Life Week 1. The project is a small interactive desktop pet powered by the Seeed Studio Xiao ESP32 C3 microcontroller. The original project has been augmented  by adding a piezo buzzer and changing the original 'Run' interaction to a 'Sing' interaction.  
@@ -13,9 +14,13 @@ For a list of needed Components, please go to <a href = "https://github.com/jtyl
 You will need to have the Arduino IDE installed in order to edit and upload any and all code to the Starbie. If you wish to change the PCB, you will need to have Kicad installed.
 
 ## Wiring
+<img width="1123" height="794" alt="Starbie" src="https://github.com/user-attachments/assets/9f24af7c-2bae-4297-a7a1-3f1119065d82" />
 
+As of now, I have not printed the board. I will probably not be able to add a build tutorial until Week Six, as to put images here. However, I can at least discuss how the sound system is wired up.
 
-As of now, I have not printed the board. I will probably not be able to add a build tutorial until Week Six, as to put images here.
+<img width="650" height="467" alt="Screenshot 2026-10-11 at 8 27 06 AM" src="https://github.com/user-attachments/assets/85180d0a-e33b-4d99-8372-d2f3729c3535" />
+
+The simple explanation is that the potentiometer is wired to Digital Pin 7 on the XIAO board. This is where the input voltage is. Then the positive lead on the buzzer is wired into the wiper pin of the potentiometer. Both components are grounded using a ground pool on the PCB.
 
 ## Coding
 All code is inside the Firmware folder. To use the code, you will need to open up the Arduino IDE, go to File -> Open. Then you will navigate to Starbie.ino . When you try to open the file in the IDE, you will revieve a pop up that says that it will need to create an independent folder for the code. Select Proceed, and you're all set to edit your code and upload it.
