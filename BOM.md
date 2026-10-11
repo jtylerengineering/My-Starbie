@@ -18,7 +18,7 @@
 | [MPU 6050](https://www.amazon.com/dp/B0HDTWF4XQ/ref=sspa_dk_detail_5?psc=1&pd_rd_i=B0HDTWF4XQ&pd_rd_w=CNGxM&content-id=amzn1.sym.17345c9b-ef8c-4a79-bcd9-8894b1e1e0ea&pf_rd_p=17345c9b-ef8c-4a79-bcd9-8894b1e1e0ea&pf_rd_r=487XE0MW1X1DB6A48EWC&pd_rd_wg=lQIok&pd_rd_r=2e1f7261-b4df-4256-8a86-4df6f10197ed&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWw) | checking tilt for rotary menu | 1 | $9.99 | $9.99 | [amazon](https://www.amazon.com/dp/B0HDTWF4XQ/ref=sspa_dk_detail_5?psc=1&pd_rd_i=B0HDTWF4XQ&pd_rd_w=CNGxM&content-id=amzn1.sym.17345c9b-ef8c-4a79-bcd9-8894b1e1e0ea&pf_rd_p=17345c9b-ef8c-4a79-bcd9-8894b1e1e0ea&pf_rd_r=487XE0MW1X1DB6A48EWC&pd_rd_wg=lQIok&pd_rd_r=2e1f7261-b4df-4256-8a86-4df6f10197ed&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWw) |
 | [XIAO ESP32-C3](https://www.seeedstudio.com/Seeed-XIAO-ESP32C3-p-5431.html) | Microcontroller | 1 | $4.99 | $4.99 | [Seeed Studio](https://www.seeedstudio.com/Seeed-XIAO-ESP32C3-p-5431.html) |
 | **Parts subtotal** | — | — | — | **$16.64** | — |
-| **Tax & shipping** | — | — | — | **$33.79** | — |
-| **Total** | — | — | — | **$50.43** | — |
+| **Tax & shipping** | — | — | — | **$0.00** | — |
+| **Total** | — | — | — | **$16.64** | — |
 
-**$20.43 over the tier's funding.** Every tier gives a fixed amount for parts, so this needs cutting back or a higher tier.
+$13.36 left of the tier's funding.
