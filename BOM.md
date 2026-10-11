@@ -13,13 +13,12 @@
 | Part | What it's for | Qty | Unit | Total | Vendor |
 | --- | --- | --- | --- | --- | --- |
 | [XIAO-ESP32-C3](https://www.digikey.com/en/products/detail/seeed-technology-co-ltd/113991054/16652880?gclsrc=aw.ds&gad_source=1&gad_campaignid=20243136172&gbraid=0AAAAADrbLlgBpAKVoScEm84N_XsvZhHeN&gclid=CjwKCAjwlY3WBhANEiwApsNrLQ4rxadUA8LLqkgn10L8v_K2eDpdiLBD40uDj9R-lDCDutmj4X9cThoCU3AQAvD_BwE) | Microcontroller  for  Starbie | 1 | $5.25 | $5.25 | [Digikey](https://www.digikey.com/en/products/detail/seeed-technology-co-ltd/113991054/16652880?gclsrc=aw.ds&gad_source=1&gad_campaignid=20243136172&gbraid=0AAAAADrbLlgBpAKVoScEm84N_XsvZhHeN&gclid=CjwKCAjwlY3WBhANEiwApsNrLQ4rxadUA8LLqkgn10L8v_K2eDpdiLBD40uDj9R-lDCDutmj4X9cThoCU3AQAvD_BwE) |
-| [DHT11 environment sensor](https://www.mouser.com/en/ProductDetail/Olimex-Ltd/SNS-DHT11?qs=2FehpBK1j95oSTxzFgaBog%3D%3D&mgh=1&utm_id=23744632239&utm_source=google&utm_medium=cpc&utm_marketing_tactic=amercorp&gad_source=4&gad_campaignid=23749957841&gbraid=0AAAAADn_wf3ahF67ieb16H3PTBFrBkf2i&gclid=Cj0KCQjwuJLWBhD_ARIsAIBcRUzIQB8DiDrqka8ohGL1JgAajOzhGY04ey4GEjZzds6H6wMMf97BrW8aAobrEALw_wcB) | Measuring temp and humidity in the environment around the Starbie | 1 | $4.13 | $4.13 | [Mouser](https://www.mouser.com/en/ProductDetail/Olimex-Ltd/SNS-DHT11?qs=2FehpBK1j95oSTxzFgaBog%3D%3D&mgh=1&utm_id=23744632239&utm_source=google&utm_medium=cpc&utm_marketing_tactic=amercorp&gad_source=4&gad_campaignid=23749957841&gbraid=0AAAAADn_wf3ahF67ieb16H3PTBFrBkf2i&gclid=Cj0KCQjwuJLWBhD_ARIsAIBcRUzIQB8DiDrqka8ohGL1JgAajOzhGY04ey4GEjZzds6H6wMMf97BrW8aAobrEALw_wcB) |
 | [MPU6050 sensor](https://www.digikey.com/en/products/detail/universal-solder-electronics-ltd/26241/26606420?gclsrc=aw.ds&gad_source=1&gad_campaignid=20243136172&gbraid=0AAAAADrbLlgDRL8CRs_7r9bxcB12aYrAc&gclid=Cj0KCQjwuJLWBhD_ARIsAIBcRUyH-ekk7cLw22yIfTjo-1PLIfX5k9zpJjOzYHQ_4GpLwAaksbRR_akaAk8CEALw_wcB) | Acts as a way to track the change in position  of the starbie | 1 | $5.99 | $5.99 | [Digikey](https://www.digikey.com/en/products/detail/universal-solder-electronics-ltd/26241/26606420?gclsrc=aw.ds&gad_source=1&gad_campaignid=20243136172&gbraid=0AAAAADrbLlgDRL8CRs_7r9bxcB12aYrAc&gclid=Cj0KCQjwuJLWBhD_ARIsAIBcRUyH-ekk7cLw22yIfTjo-1PLIfX5k9zpJjOzYHQ_4GpLwAaksbRR_akaAk8CEALw_wcB) |
 | [PCB  manufacturing](https://cart.jlcpcb.com/shopcart/cart/) | Making the board itself | 1 | $9.70 | $9.70 | [JLPCB](https://cart.jlcpcb.com/shopcart/cart/) |
 | [0.96 OLED display](https://www.amazon.com/dp/B0GBWXTR1Z?th=1) | Displaying the pet/stats | 1 | $5.99 | $5.99 | [Amazon](https://www.amazon.com/dp/B0GBWXTR1Z?th=1) |
 | [keyboard switches](https://www.amazon.com//dp/B0FQP8VYX4) | buttons to open rotary menu and view stats | 1 | $8.99 | $8.99 | [amazon](https://www.amazon.com//dp/B0FQP8VYX4) |
-| **Parts subtotal** | — | — | — | **$40.05** | — |
+| **Parts subtotal** | — | — | — | **$35.92** | — |
 | **Tax & shipping** | — | — | — | **$0.00** | — |
-| **Total** | — | — | — | **$40.05** | — |
+| **Total** | — | — | — | **$35.92** | — |
 
-**$10.05 over the tier's funding.** Every tier gives a fixed amount for parts, so this needs cutting back or a higher tier.
+**$5.92 over the tier's funding.** Every tier gives a fixed amount for parts, so this needs cutting back or a higher tier.
