@@ -13,13 +13,12 @@
 | Part | What it's for | Qty | Unit | Total | Vendor |
 | --- | --- | --- | --- | --- | --- |
 | [XIAO-ESP32-C3](https://www.digikey.com/en/products/detail/seeed-technology-co-ltd/113991054/16652880?gclsrc=aw.ds&gad_source=1&gad_campaignid=20243136172&gbraid=0AAAAADrbLlgBpAKVoScEm84N_XsvZhHeN&gclid=CjwKCAjwlY3WBhANEiwApsNrLQ4rxadUA8LLqkgn10L8v_K2eDpdiLBD40uDj9R-lDCDutmj4X9cThoCU3AQAvD_BwE) | Microcontroller  for  Starbie | 1 | $5.25 | $5.25 | [Digikey](https://www.digikey.com/en/products/detail/seeed-technology-co-ltd/113991054/16652880?gclsrc=aw.ds&gad_source=1&gad_campaignid=20243136172&gbraid=0AAAAADrbLlgBpAKVoScEm84N_XsvZhHeN&gclid=CjwKCAjwlY3WBhANEiwApsNrLQ4rxadUA8LLqkgn10L8v_K2eDpdiLBD40uDj9R-lDCDutmj4X9cThoCU3AQAvD_BwE) |
-| [MPU6050 sensor](https://www.digikey.com/en/products/detail/universal-solder-electronics-ltd/26241/26606420?gclsrc=aw.ds&gad_source=1&gad_campaignid=20243136172&gbraid=0AAAAADrbLlgDRL8CRs_7r9bxcB12aYrAc&gclid=Cj0KCQjwuJLWBhD_ARIsAIBcRUyH-ekk7cLw22yIfTjo-1PLIfX5k9zpJjOzYHQ_4GpLwAaksbRR_akaAk8CEALw_wcB) | Acts as a way to track the change in position  of the starbie | 1 | $5.99 | $5.99 | [Digikey](https://www.digikey.com/en/products/detail/universal-solder-electronics-ltd/26241/26606420?gclsrc=aw.ds&gad_source=1&gad_campaignid=20243136172&gbraid=0AAAAADrbLlgDRL8CRs_7r9bxcB12aYrAc&gclid=Cj0KCQjwuJLWBhD_ARIsAIBcRUyH-ekk7cLw22yIfTjo-1PLIfX5k9zpJjOzYHQ_4GpLwAaksbRR_akaAk8CEALw_wcB) |
 | [PCB  manufacturing](https://cart.jlcpcb.com/shopcart/cart/) | Making the board itself | 1 | $9.70 | $9.70 | [JLPCB](https://cart.jlcpcb.com/shopcart/cart/) |
 | [0.96 OLED display](https://www.amazon.com/dp/B0GBWXTR1Z?th=1) | Displaying the pet/stats | 1 | $5.99 | $5.99 | [Amazon](https://www.amazon.com/dp/B0GBWXTR1Z?th=1) |
 | [keyboard switches](https://www.amazon.com//dp/B0FQP8VYX4) | buttons to open rotary menu and view stats | 1 | $8.99 | $8.99 | [amazon](https://www.amazon.com//dp/B0FQP8VYX4) |
 | [DHT11 Environment Sensor](https://www.amazon.com/dp/B0BLG7R99R) | tracking humidity and temp in surroundings | 1 | $9.93 | $9.93 | [Amazon](https://www.amazon.com/dp/B0BLG7R99R) |
-| **Parts subtotal** | — | — | — | **$45.85** | — |
+| **Parts subtotal** | — | — | — | **$39.86** | — |
 | **Tax & shipping** | — | — | — | **$0.00** | — |
-| **Total** | — | — | — | **$45.85** | — |
+| **Total** | — | — | — | **$39.86** | — |
 
-**$15.85 over the tier's funding.** Every tier gives a fixed amount for parts, so this needs cutting back or a higher tier.
+**$9.86 over the tier's funding.** Every tier gives a fixed amount for parts, so this needs cutting back or a higher tier.
