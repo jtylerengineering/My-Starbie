@@ -31,6 +31,29 @@ const int DHT_PIN = 3;           // XIAO D1: DHT11 data
 const int BUTTON_ONE_PIN = 4;    // XIAO D2: opens/confirms the radial menu
 const int BUTTON_TWO_PIN = 5;    // XIAO D3: shows/hides stats
 
+//Where I added the piezo pin value- JR
+const int buzzerPin = 20; //XIAO D7: sends current to the piezo speaker
+
+//You put the rythm (BPM) here. Just change 180 to whatever you need -JR
+const float rythm = 180;
+
+//leave this alone. This is for the length of one note. - JR
+const float beat = 1000 * (60 / rythm);
+
+//Below are the notes and their freqency along the C major scale.
+const unsigned int c3 = 130.8;
+const unsigned int d3 = 146.8;
+const unsigned int e3 = 164.8;
+const unsigned int f3 = 174.6;
+const unsigned int g3 = 196.0;
+const unsigned int a3 = 220.0;
+const unsigned int b3 = 246.9;
+const unsigned int cMid = 261.6;
+const unsigned int d4 = 293.7;
+const unsigned int e4 = 329.6;
+const unsigned int f4 = 349.2;
+const unsigned int g4 = 392.0;
+
 // Set this to false if your submission does not have a DHT11.
 const bool USE_DHT11 = true;
 
@@ -69,7 +92,7 @@ struct MenuItem {
 
 const MenuItem MENU_ITEMS[] = {
   {"NAP",   1,  18, -4, NAP_REACTION},   // top: sleep and emit Zs
-  {"PLAY", 12, -9, -5, RUN_REACTION},    // right: two fast laps + hearts
+  {"Sing", 12, -9, -5, RUN_REACTION},    // right: two fast laps + hearts
   {"FEED",  3,  2,  18, JUMP_REACTION},  // bottom: wiggle and jump
   {"PET",   7,  0,  0, HEART_REACTION},  // left: jump and emit hearts
 };
@@ -223,6 +246,115 @@ int petWalkingX(uint32_t now);
 
 int keepInRange(int value, int smallest, int largest) {
   return constrain(value, smallest, largest);
+}
+
+void Sing(){//put song code here. My example is Daisy Bell (Bicycle Built for Two)
+  tone(buzzerPin, g4);
+  delay(beat * 3);//take the ammount of time for one quarter note, and multiply it by the amount of beats
+  tone(buzzerPin, e4);
+  delay(beat * 3);
+  tone(buzzerPin, cMid);
+  delay(beat * 3);
+  tone(buzzerPin, g3);
+  delay(beat * 3);
+  tone(buzzerPin, a3);
+  delay(beat);
+  tone(buzzerPin, b3);
+  delay(beat);
+  tone(buzzerPin, cMid);
+  delay(beat);
+  tone(buzzerPin, a3);
+  delay(beat * 2);
+  tone(buzzerPin, cMid);
+  delay(beat);
+  tone(buzzerPin, g3);
+  delay(beat * 6);
+  tone(buzzerPin, d4);
+  delay(beat * 3);
+  tone(buzzerPin, g4);
+  delay(beat * 3);
+  tone(buzzerPin, e4);
+  delay(beat * 3);
+  tone(buzzerPin, cMid);
+  delay(beat * 3);
+  tone(buzzerPin, a3);
+  delay(beat);
+  tone(buzzerPin, b3);
+  delay(beat);
+  tone(buzzerPin, cMid);
+  delay(beat);
+  tone(buzzerPin, d4);
+  delay( beat * 2);
+  tone(buzzerPin, e4);
+  delay(beat);
+  tone(buzzerPin, d4);
+  delay(beat * 4);
+  tone(buzzerPin, e4);
+  delay(beat);
+  tone(buzzerPin, f4);
+  delay(beat);
+  tone(buzzerPin, e4);
+  delay(beat);
+  tone(buzzerPin, d4);
+  delay(beat);
+  tone(buzzerPin, g4);
+  delay(beat * 2);
+  tone(buzzerPin, e4);
+  delay(beat);
+  tone(buzzerPin, d4);
+  delay(beat);
+  tone(buzzerPin, cMid);
+  delay (beat * 4);
+  tone(buzzerPin, d4);
+  delay(beat);
+  tone(buzzerPin, e4);
+  delay(beat * 2);
+  tone(buzzerPin, cMid);
+  delay(beat);
+  tone(buzzerPin, a3);
+  delay(beat * 2);
+  tone(buzzerPin, cMid);
+  delay(beat);
+  tone(buzzerPin, a3);
+  delay(beat);
+  tone(buzzerPin, g3);
+  delay(beat * 4);
+  noTone(buzzerPin);// this is so that there is a small break between "carriage" and "but"
+  delay(beat * 0.25);
+  tone(buzzerPin, g3);
+  delay(beat);
+  tone(buzzerPin, cMid);
+  delay(beat * 2);
+  tone(buzzerPin, e4);
+  delay(beat);
+  tone(buzzerPin, d4);
+  delay(beat * 2);
+  tone(buzzerPin, g3);
+  delay(beat);
+  tone(buzzerPin, cMid);
+  delay(beat * 2);
+  tone(buzzerPin, e4);
+  delay(beat);
+  tone(buzzerPin, d4);
+  delay(beat);
+  tone(buzzerPin, e4);
+  delay(beat);
+  tone(buzzerPin, f4);
+  delay(beat);
+  tone(buzzerPin, g4);
+  delay(beat);
+  tone(buzzerPin, e4);
+  delay(beat);
+  tone(buzzerPin, cMid);
+  delay(beat);
+  tone(buzzerPin, d4);
+  delay(beat * 2);
+  tone(buzzerPin, g3);
+  delay(beat);
+  tone(buzzerPin, cMid);
+  delay(beat);
+  noTone(buzzerPin);
+
 }
 
 void changePet(int joyChange, int energyChange, int fullnessChange) {
@@ -386,6 +518,9 @@ void checkForShake() {
     nappingUntil = 0;  // A shake wakes a sleeping pet right away.
     shakeAnimationEndsAt = now + 350;
     changePet(SHAKE_JOY_CHANGE, SHAKE_ENERGY_CHANGE, SHAKE_FULLNESS_CHANGE);
+    tone(buzzerPin, 1000)
+    delay(500);
+    noTone(buzzerPin);
     savePet();
   }
 }
@@ -421,6 +556,7 @@ void chooseMenuItem() {
     petJumpStartedAt = 0;
     playRunStartedAt = now;
     heartAnimationEndsAt = now + playRunDuration();
+    Sing();
   } else {
     // A confirmed action gets a little anticipation shake before the jump.
     petJumpStartedAt = now;
@@ -601,7 +737,20 @@ void drawCurrentView() {
   display.display();
 }
 
+//code for the Starbie to alert the owner that it's hungry
+void alert(){
+  `if (pet.fullness + fullnessChange =< 10){
+    tone(buzzerPin, 1000);
+    noTone(buzzerPin);
+  }
+  else{
+    noTone(buzzerPin);
+  }
+}
+
 void setup() {
+  pinMode(buzzerPin, OUTPUT);
+
   Serial.begin(115200);
   Wire.begin(I2C_SDA_PIN, I2C_SCL_PIN);
   setUpButton(buttonOne);
@@ -631,6 +780,7 @@ void setup() {
 
   drawCurrentView();
 }
+
 
 void loop() {
   updateMpu();
