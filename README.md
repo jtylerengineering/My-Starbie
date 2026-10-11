@@ -31,6 +31,8 @@ An explanation for setting up for an upload will be added during week six.
 ### the Sing() Function
 One of the changes I made to the original project was adding the ability to play a song. As of now, you will only be able to play one line and note at a time (if you want more than this, you will need to add more piezo buzzers). However, I did lay down the framework for putting your own song instead of my example. 
 
+<img width="681" height="317" alt="notes_code" src="https://github.com/user-attachments/assets/a7a50cdd-d2b5-4eb6-9964-86d0a1be8fb7" />
+
 First off, the notes shown above are all in C Major, so you will need to either find a song in that key or adjust the frequencies accordingly. The syntax for writing a note into the code is as follows:
      ` tone(buzzerPin, note); `
 
