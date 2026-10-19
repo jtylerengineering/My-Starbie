@@ -14,7 +14,7 @@
 
 ## Contents
 
-1. [2026-10-05 – Work session](#2026-10-05-work-session)
+1. [2026-10-05 – Work Session:](#2026-10-05-work-session)
 2. [2026-10-06 – Work session](#2026-10-06-work-session)
 3. [2026-10-07 – Work session](#2026-10-07-work-session)
 4. [2026-10-08 – Work session](#2026-10-08-work-session)
@@ -25,9 +25,14 @@
 
 ## Design
 
-### 2026-10-05 – Work session
+### 2026-10-05 – Work Session:
 
 **2.72h**
+
+Work Session:
+Alright, so this got kicked back over to me because I didn't actually write? I can't really include images, because it's been two weeks, but I can say what I did with this session.
+
+I managed to start the basic layout for the PCB done. Then I made a little image to put onto the board.
 
 [Timelapse](https://lookout.hackclub.com/api/media/30c82050-e9c5-445f-adda-d8bf633509e4/video.mp4)
 
