@@ -18,7 +18,7 @@
 2. [2026-10-06 – Work session](#2026-10-06-work-session)
 3. [2026-10-07 – Work session](#2026-10-07-work-session)
 4. [2026-10-08 – Work session](#2026-10-08-work-session)
-5. [2026-10-10 – Work session](#2026-10-10-work-session)
+5. [2026-10-10 – #  Figured out how to make the Starbie sing](#2026-10-10-figured-out-how-to-make-the-starbie-sing)
 6. [2026-10-10 – Work session](#2026-10-10-work-session)
 7. [2026-10-11 – Work session](#2026-10-11-work-session)
 8. [2026-10-11 – I have finally, FINALLY, finished the project until week six. I finished writing the code for the example song, and even added my own sprite. I stayed up late last night trying to get my BOM within bu](#2026-10-11-i-have-finally-finally-finished-the-project-until)
@@ -70,9 +70,22 @@ This session was spent planning out the code part of my music expansion. Most of
 
 [Timelapse](https://lookout.hackclub.com/api/media/e90169a8-d393-442e-8c28-16df74c55de9/video.mp4)
 
-### 2026-10-10 – Work session
+### 2026-10-10 – #  Figured out how to make the Starbie sing
 
 **1.58h**
+
+#  Figured out how to make the Starbie sing
+I had some free time and needed some more hours, so I started working on this. Basically, one of my alterations to the original project was adding a piezo buzzer to allow the Starbie to let you know if it's hungry. I still need about six more hours (which I will probably use up getting all of my stuff together with the repo), and I hadn't edited the interactions.
+
+##  what I accomplished
+When you use the "sing" interaction, you will hear the buzzer belt out an 8-bit rendition of "Daisy Bell". I have also included the framework to put in your own songs.
+
+The basic explanation for this is that all of the notes (see above) are `unsigned int`  variables that correspond to a specific frequency. The notes range from the C below Middle C to the G above Middle C.
+
+To play a note you do the following:
+1. in ` void Sing() `, you  write out something along the lines of ` tone(buzzerPin, note); `
+2. To manipulate the length of a note, you type ` delay(beat * length of note) `.
+3. If you have a rest in the music, then you use ` noTone() ` and add the delay of the rest.
 
 [Timelapse](https://lookout.hackclub.com/api/media/4dcf4571-a17f-4872-a1f9-99c167869611/video.mp4)
 
