@@ -44,6 +44,10 @@ I managed to start the basic layout for the PCB done. Then I made a little image
 
 **0.83h**
 
+Work session
+Written on day 1 of week 3:
+This was the session that I started working on adding a custom feature to my PCB. My Starbie sings "Daisy Bell". I think this was the point where I added the piezo buzzer.
+
 [Timelapse](https://lookout.hackclub.com/api/media/eb816333-7a38-47f0-a361-d6f368adf604/video.mp4)
 
 ### 2026-10-07 – Work session
