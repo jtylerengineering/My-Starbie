@@ -54,6 +54,10 @@ This was the session that I started working on adding a custom feature to my PCB
 
 **0.57h**
 
+Work session
+Written Day 1 of Week 3
+This session was mostly spent getting the initial commit up to the repository. I think I was just trying to get caught up on documentation.
+
 [Timelapse](https://lookout.hackclub.com/api/media/820abe51-5dc4-4270-ba99-eca977ea2a29/video.mp4)
 
 ### 2026-10-08 – Work session
