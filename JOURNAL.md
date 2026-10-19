@@ -105,6 +105,9 @@ I don't really remember this session well. I pulled most of an all-nighter to wo
 **1.37h**
 
 Work session
+Written Day 1 of Week 3
+
+This was a rough session. I spent most of that day fighting with the BOM and the repository.  I was very, very tired from being up until midnight for several days.
 
 [Timelapse](https://lookout.hackclub.com/api/media/da1b2146-64ea-45f5-b36b-9d596abfe89f/video.mp4)
 
