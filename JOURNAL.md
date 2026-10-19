@@ -65,6 +65,8 @@ This session was mostly spent getting the initial commit up to the repository. I
 **0.65h**
 
 Work session
+Written Day 1 of Week 3
+This session was spent planning out the code part of my music expansion. Most of this planning was for a scrapped idea I had of creating a converter for C++ from music, but I still used most of the basic concept when I eventually just brute-forced it using the tone() function.
 
 [Timelapse](https://lookout.hackclub.com/api/media/e90169a8-d393-442e-8c28-16df74c55de9/video.mp4)
 
