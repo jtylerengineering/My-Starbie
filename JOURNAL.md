@@ -93,6 +93,11 @@ To play a note you do the following:
 
 **1.17h**
 
+Work session
+written day 1 of week 3
+
+I don't really remember this session well. I pulled most of an all-nighter to work this particular session. I know for a fact, however, that I stopped because I was frustrated over the cost of shipping at around midnight.
+
 [Timelapse](https://lookout.hackclub.com/api/media/00e9b20b-8977-4a8c-a858-94ec8ccfab37/video.mp4)
 
 ### 2026-10-11 – Work session
