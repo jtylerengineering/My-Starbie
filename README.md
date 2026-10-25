@@ -11,7 +11,7 @@ The Starbie is a starter project for Half-Life Week 1. The project is a small in
  You will also need to obtain the PCB. For the Gerber flies, head to <a href=" ">Gerber Files</a>. Other than that, you will need a soldering iron and solder to wire the components to the board. The table below is based on the components I used while designing this.
  
 > [!NOTE]
-> A few of these components are not part of BOM.csv. That BOM is the parts I had to request funding for through Half Life. The table below is a comprehensive list. 
+> Use BOMActual.md instead of Bom.csv to get an accurate count
  
 
 | Component | Amount | Price (USD) | Link |
