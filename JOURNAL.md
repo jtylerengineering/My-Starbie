@@ -6,7 +6,7 @@
 > [!NOTE]
 > This devlog is mirrored from [Half Life](https://halflife.hackclub.com) – [open the project](https://halflife.hackclub.com/projects/cmuv2tyat0cx401smyh1lacyq). Editing it here will not change the platform's copy, and the next sync overwrites this file.
 
-> A tiny motion-controlled digital pet, basically a desktop Tamagotchi. Totally not a Starboy.
+> A tiny motion-controlled digital pet, basically a desktop Tamagotchi that can sing. Totally not a Starboy.
 
 | Week | Tier | Hours logged | Entries |
 | --- | --- | --- | --- |
@@ -117,6 +117,6 @@ This was a rough session. I spent most of that day fighting with the BOM and the
 
 I have finally, FINALLY, finished the project until week six. I finished writing the code for the example song, and even added my own sprite. I stayed up late last night trying to get my BOM within budget, and I have nodded off partway through programming the song multiple times. The repo is as polished as it's going to be until I add assembly instructions during week 6. My BOM is far over my budget simply because of shipping. I have even taken into account some gift cards I already have along with excluding parts I already own, and it is still extremely rough. I hope Week 2 will be less of a hurdle, given that I already have a 3d printer and won't need the BOM.
 
-![Screenshot 2026-10-11 162057](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/o50ahq5LZfgfVNXxQFq0VHymdocnCotx/61a2730a6935ab55861db489362283d026b0e4fb3b76f336ae7ea4ba9559f1de.png)
+![Screenshot 2026-10-11 162057](https://halflife.hackclub-assets.com/sessions/o50ahq5LZfgfVNXxQFq0VHymdocnCotx/61a2730a6935ab55861db489362283d026b0e4fb3b76f336ae7ea4ba9559f1de.png)
 
-![Screenshot 2026-10-11 164642](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/o50ahq5LZfgfVNXxQFq0VHymdocnCotx/afffa344406693f12750fa92051f5fc48eefac108b5110c5d307ce2eefb74f62.png)
+![Screenshot 2026-10-11 164642](https://halflife.hackclub-assets.com/sessions/o50ahq5LZfgfVNXxQFq0VHymdocnCotx/afffa344406693f12750fa92051f5fc48eefac108b5110c5d307ce2eefb74f62.png)
