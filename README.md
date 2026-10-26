@@ -11,7 +11,7 @@ The Starbie is a starter project for Half-Life Week 1. The project is a small in
  You will also need to obtain the PCB. For the Gerber flies, head to <a href=" ">Gerber Files</a>. Other than that, you will need a soldering iron and solder to wire the components to the board. The table below is based on the components I used while designing this.
  
 > [!NOTE]
-> Use BOMActual.md instead of Bom.csv to get an accurate count
+> refer to Starbie BOM - Sheet 1.csv instead of Bom.csv to get an accurate count. Bom.csv is a result of the Half Life site's system, and is inaccurate to a full project.
  
 
 | Component | Amount | Price (USD) | Link |
@@ -24,6 +24,9 @@ The Starbie is a starter project for Half-Life Week 1. The project is a small in
 | Piezo Buzzer | 1 | $1.90 | <a href="https://www.aliexpress.us/item/3256807978776593.html?spm=a2g0o.productlist.main.4.68504059USJBKe&aem_p4p_detail=202610210545177614210076402460000779104&algo_pvid=b9cfe003-73af-4c05-a8ab-92390f81b2b9&algo_exp_id=b9cfe003-73af-4c05-a8ab-92390f81b2b9-3&pdp_ext_f=%7B%22order%22%3A%22133%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21USD%211.90%211.90%21%21%2112.63%2112.63%21%4021032e4e17925867176664384e0e2b%2112000044055302230%21sea%21US%218282019388%21ABX%211%210%21n_tag%3A-29910%3Bd%3Accb82ee9%3Bm03_new_user%3A-29895&curPageLogUid=14ANKVOokQq1&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005008165091345%7C_p_origin_prod%3A&search_p4p_id=202610210545177614210076402460000779104_1">Aliexpress</a> |
 | DHT11 Environment Sensor | 1 | $5.76 | <a href="https://www.aliexpress.us/item/3256809040855978.html?spm=a2g0o.productlist.main.2.5337604arbm8Gt&algo_pvid=8c74fd26-a937-4906-9cb9-6d6c3bbb966c&algo_exp_id=8c74fd26-a937-4906-9cb9-6d6c3bbb966c-1&pdp_ext_f=%7B%22order%22%3A%22203%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21USD%215.75%215.75%21%21%2138.18%2138.18%21%402103128817925877811354370e0ea1%2112000048385025197%21sea%21US%218282019388%21ABX%211%210%21n_tag%3A-29910%3Bd%3Accb82ee9%3Bm03_new_user%3A-29895&curPageLogUid=QFI6nGCRqfPS&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005009227170730%7C_p_origin_prod%3A">Aliexpress</a> |
 | 10 kOhm resister | 1 | $0.14 | <a href="https://www.jameco.com/z/CF1W103JRC-Jameco-ValuePro-Resistor-Carbon-Film-10k-Ohm-1-Watt-5-_2237221.html?srsltid=AU7gw4UA99z_8AuIH1aGr_tBybTi_9l5eX-QZ8F5XKKPQdWzRGTRjFpqPhA">Jameco</a> |
+| PCB | 1 | $1.88 | <a href="https://jlcpcb.com/">JLPCB</a> | 
+| Shipping/Fees | $17.36 |
+| Total | $47.69 |
 
 
 ### Software
